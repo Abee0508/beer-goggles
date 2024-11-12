@@ -5,54 +5,56 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import Slider from "react-slick";
 
+import categoryimg1 from "../images/category-img1.png";
+import categoryimg2 from "../images/category-img2.png";
+import categoryimg3 from "../images/category-img3.png";
+import categoryimg4 from "../images/category-img4.png";
+import categoryimg5 from "../images/category-img5.png";
+import categoryimg6 from "../images/category-img6.png";
+import categoryimg7 from "../images/category-img7.png";
+
+import product1 from "../images/product1.png";
+import product2 from "../images/product2.png";
+import product3 from "../images/product3.png";
+import product4 from "../images/product4.png";
+import product5 from "../images/product5.png";
+import product6 from "../images/product6.png";
+
+import newproduct1 from "../images/new-product1.png";
+import newproduct2 from "../images/new-product2.png";
+import newproduct3 from "../images/new-product3.png";
+import newproduct4 from "../images/new-product4.png";
+
+import accessories1 from "../images/accessories1.png";
+import accessories2 from "../images/accessories2.png";
+import accessories3 from "../images/accessories3.png";
+import accessories4 from "../images/accessories4.png";
+
+import finddevice1 from "../images/find-device1.png";
+import finddevice2 from "../images/find-device2.png";
+
+import vaporizerimg1 from "../images/vaporizer-img1.png";
+import vaporizerimg2 from "../images/vaporizer-img2.png";
+import vaporizerimg3 from "../images/vaporizer-img3.png";
+import vaporizerimg4 from "../images/vaporizer-img4.png";
+import vaporizerimg5 from "../images/vaporizer-img5.png";
+import vaporizerimg6 from "../images/vaporizer-img6.png";
+
+import quote from "../images/quote.png";
+
+import stopsmoking from "../images/stop-smoking.png";
+
+import profile1 from "../images/profile1.png";
+import profile2 from "../images/profile2.png";
+import profile3 from "../images/profile3.png";
+
+import disposable1 from "../images/disposable-1.png";
+import disposable2 from "../images/disposable-2.png";
+import disposable3 from "../images/disposable-3.png";
+
+
+
 export default function Home() {
-  const categoryimg1 = "/images/category-img1.png";
-const categoryimg2 = "/images/category-img2.png";
-const categoryimg3 = "/images/category-img3.png";
-const categoryimg4 = "/images/category-img4.png";
-const categoryimg5 = "/images/category-img5.png";
-const categoryimg6 = "/images/category-img6.png";
-const categoryimg7 = "/images/category-img7.png";
-
-const product1 = "/images/product1.png";
-const product2 = "/images/product2.png";
-const product3 = "/images/product3.png";
-const product4 = "/images/product4.png";
-const product5 = "/images/product5.png";
-const product6 = "/images/product6.png";
-
-const newproduct1 = "/images/new-product1.png";
-const newproduct2 = "/images/new-product2.png";
-const newproduct3 = "/images/new-product3.png";
-const newproduct4 = "/images/new-product4.png";
-
-const accessories1 = "/images/accessories1.png";
-const accessories2 = "/images/accessories2.png";
-const accessories3 = "/images/accessories3.png";
-const accessories4 = "/images/accessories4.png";
-
-const finddevice1 = "/images/find-device1.png";
-const finddevice2 = "/images/find-device2.png";
-
-const vaporizerimg1 = "/images/vaporizer-img1.png";
-const vaporizerimg2 = "/images/vaporizer-img2.png";
-const vaporizerimg3 = "/images/vaporizer-img3.png";
-const vaporizerimg4 = "/images/vaporizer-img4.png";
-const vaporizerimg5 = "/images/vaporizer-img5.png";
-const vaporizerimg6 = "/images/vaporizer-img6.png";
-
-const quote = "/images/quote.png";
-const stopsmoking = "/images/stop-smoking.png";
-
-const profile1 = "/images/profile1.png";
-const profile2 = "/images/profile2.png";
-const profile3 = "/images/profile3.png";
-
-const disposable1 = "/images/disposable-1.png";
-const disposable2 = "/images/disposable-2.png";
-const disposable3 = "/images/disposable-3.png";
-
-
   const newproducts = {
     dots: true,
     infinite: true,

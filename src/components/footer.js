@@ -1,11 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
-// import call from "../images/call.png";
-// import visa from "../images/visa.png";
+import call from "../images/call.png";
+import visa from "../images/visa.png";
 
 const Footer = () => {
-  const call = "/images/call.png";
-const visa = "/images/visa.png";
   return (
     <>
       <footer>
